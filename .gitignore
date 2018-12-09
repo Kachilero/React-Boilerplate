@@ -1,0 +1,17 @@
+# Expensify App Ignore
+
+# No IDE
+.idea
+
+# MAC
+.DS_Store
+
+#/Node
+node_modules
+
+# Ignore generated files in the public folder
+public/dist
+
+# Ignore sensitive information
+.env.development
+.env.test
